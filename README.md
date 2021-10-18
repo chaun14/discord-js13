@@ -1,6 +1,6 @@
 # Discord.js 13 pterodactyl Bot Hosting docker image
 
-this is an egg dedicated to nodejs bot hosting (discord.js v16) on pterodactyl panel 
+this is an egg dedicated to nodejs bot hosting (discord.js v13 & nodejs v16) on pterodactyl panel 
 You should change the first install ressources link by your own
 
 
