@@ -22,7 +22,7 @@
     },
     "scripts": {
         "installation": {
-            "script": "#!\/bin\/bash\r\nrm -rf \/mnt\/server\r\napt -y update\r\napt install libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget curl\r\nmkdir -p \/mnt\/server\/\r\nchown -R root:root \/mnt\r\ncd \/mnt\/server\/\r\nwget https:\/\/dev.chaun14.fr\/nodejsdefault.zip\r\nunzip nodejsdefault\r\nrm -rf nodejsdefault.zip",
+            "script": "#!\/bin\/bash\r\nrm -rf \/mnt\/server\r\napt -y update\r\napt install -y libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget curl\r\nmkdir -p \/mnt\/server\/\r\nchown -R root:root \/mnt\r\ncd \/mnt\/server\/\r\nwget https:\/\/dev.chaun14.fr\/nodejsdefault.zip\r\nunzip nodejsdefault\r\nrm -rf nodejsdefault.zip",
             "container": "ubuntu:18.04",
             "entrypoint": "bash"
         }
