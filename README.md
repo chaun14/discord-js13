@@ -1,3 +1,5 @@
+# ⚠️ OUTDATED please use the updated [version](https://github.com/chaun14/discord-js14) instead
+
 # Discord.js 13 pterodactyl Bot Hosting docker image
 
 this is an egg dedicated to nodejs bot hosting (discord.js v13 & nodejs v16) on pterodactyl panel 
